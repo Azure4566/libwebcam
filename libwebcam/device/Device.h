@@ -42,8 +42,9 @@ namespace webcam
 		bool is_open()const;
 
 		void set_focus( bool automatic , int value );
-        void set_exposure( bool automatic , int value );
-        void set_gain(  bool automatic , int value );
+        	void set_exposure( bool automatic , int value );
+        	void set_gain(  bool automatic , int value );
+		void set_zoom( int value);
 
 	protected:
 		void set_state(state  * state_);

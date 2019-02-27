@@ -112,4 +112,13 @@ namespace webcam
 			std::cout << "set gain failed" << std::endl;
 		}
     }
+
+	void Device::set_zoom( int value) {
+		if( 0!= _impl->set_zoom(int value) ) {
+			std::cout << "set zoom failed" << set ::endl;		
+		}
+	}
+
+
+
 }
